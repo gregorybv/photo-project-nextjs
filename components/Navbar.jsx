@@ -14,11 +14,11 @@ const Navbar = () => {
   useEffect(() => {
     const changeColor = () => {
       if (window.scrollY >= 90) {
-        setColor("#ffffff")
+        setColor("#dcd9d9")
         setTextColor("#000000")
       } else {
         setColor("transparent")
-        setTextColor("#ffffff")
+        setTextColor("#dcd9d9")
       }
     }
     window.addEventListener("scroll", changeColor)
