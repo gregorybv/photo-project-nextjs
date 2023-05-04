@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image"
+import React from "react"
 
 const Portfolio = () => {
   return (
@@ -57,7 +57,7 @@ const Portfolio = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Portfolio;
+export default Portfolio
