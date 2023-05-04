@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react"
 
-const Hero = ({heading, message}) => {
+const Hero = ({ heading, message }) => {
   return (
     <div className='flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover custom-img'>
       {/* Overlay */}
@@ -11,7 +11,7 @@ const Hero = ({heading, message}) => {
         <button className='px-8 py-2 border'>Book</button>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero
