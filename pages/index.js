@@ -14,7 +14,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Hero
-        heading='Captur Photography'
+        heading='BG Photography'
         message='I capture moments in nature and keep them alive.'
       />
       <Slider slides={SliderData} />
